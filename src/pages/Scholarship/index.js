@@ -12,7 +12,7 @@ const ScholarshipPage = () => {
         <div className="flex flex-col items-center justify-end w-[100%]">
           <header className="w-[100%]">
             <div className="bg-white_A700 flex flex-row md:flex-wrap sm:flex-wrap items-center sm:p-[4px] md:p-[5px] p-[8px] w-[100%]">
-              <div className="flex flex-row md:flex-wrap sm:flex-wrap max-w-[1384px] md:ml-[16px] ml-[auto] mr-[auto] mt-[1px] sm:mx-[0] sm:pl-[15px] sm:pr-[15px] sm:px-[0] w-[100%] common-row-list">
+              <div className="flex flex-row md:flex-wrap sm:flex-wrap max-w-[1384px] md:ml-[16px] ml-[auto] mr-[auto] mt-[1px] sm:mx-[0] sm:pl-[15px] sm:pr-[15px] sm:px-[0] w-[100%] common-row-list common-row-list">
                 <ul className="flex flex-row items-center">
                   <li className="w-[7%] sm:w-[100%] sm:my-[10px] rounded-radius50">
                     <Img
@@ -230,7 +230,7 @@ const ScholarshipPage = () => {
                 <div className="flex flex-row md:flex-wrap sm:flex-wrap items-start justify-evenly md:ml-[395px] ml-[575px] sm:mx-[0] sm:px-[0] sm:w-[100%] w-[15%]">
                   <Img
                     src="images/img_arrowdown_gray_500.svg"
-                    className="flex-shrink-0 sm:h-[13px] md:h-[17px] h-[24px] max-w-[100%] sm:w-[12px] md:w-[16px] w-[24px]"
+                    className="flex-shrink-0 sm:h-[13px] md:h-[17px] h-[24px] m-[6px] max-w-[100%] pt-[px] sm:w-[12px] md:w-[16px] w-[24px]"
                     alt="arrowdown Two"
                   />
                   <Text

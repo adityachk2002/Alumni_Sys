@@ -9,10 +9,10 @@ const AlumniFeedPage = () => {
   return (
     <>
       <div className="bg-gray_100 flex flex-col font-inter items-center justify-end mx-[auto] w-[100%]">
-        <div className="flex flex-col justify-end w-[100%]">
+        <div className="flex flex-col justify-end sticky w-[100%]">
           <header className="w-[100%]">
             <div className="bg-white_A700 flex flex-row md:flex-wrap sm:flex-wrap items-center sm:p-[4px] md:p-[5px] p-[8px] w-[100%]">
-              <div className="flex flex-row md:flex-wrap sm:flex-wrap max-w-[1384px] md:ml-[16px] ml-[auto] mr-[auto] mt-[1px] sm:mx-[0] sm:pl-[15px] sm:pr-[15px] sm:px-[0] w-[100%] common-row-list">
+              <div className="flex-row md:flex-wrap sm:flex-wrap inline max-w-[1384px] md:ml-[16px] ml-[auto] mr-[auto] mt-[1px] sm:mx-[0] sm:pl-[15px] sm:pr-[15px] sm:px-[0] w-[100%] common-row-list common-row-list common-row-list">
                 <ul className="flex flex-row items-center">
                   <li className="w-[7%] sm:w-[100%] sm:my-[10px] rounded-radius50">
                     <Img
@@ -76,11 +76,11 @@ const AlumniFeedPage = () => {
               </div>
             </div>
           </header>
-          <div className="flex flex-row md:flex-wrap sm:flex-wrap items-start max-w-[977px] ml-[auto] mr-[auto] sm:mx-[0] sm:pl-[15px] sm:pr-[15px] sm:px-[0] w-[100%]">
+          <div className="flex flex-row md:flex-wrap sm:flex-wrap h-[px] items-start justify-start max-w-[px] ml-[auto] mr-[auto] sm:mx-[0] p-[0] pb-[0] pl-[0] sm:pl-[15px] pr-[0] sm:pr-[15px] pt-[0] w-[100%]">
             <aside className="md:hidden sm:hidden w-[29%]">
               <div className="">
-                <div className="bg-blue_300 flex flex-col items-center justify-center md:p-[13px] sm:p-[15px] p-[20px] w-[100%]">
-                  <div className="bg-indigo_A200 flex flex-col justify-start mt-[10px] sm:mt-[5px] md:mt-[6px] p-[10px] sm:p-[5px] md:p-[6px] rounded-radius7 w-[100%]">
+                <div className="bg-blue_300 block flex-col h-[px] items-center justify-center md:p-[13px] sm:p-[15px] p-[px] relative w-[100%]">
+                  <div className="bg-indigo_A200 flex flex-col items-start justify-start sm:mt-[5px] md:mt-[6px] my-[px] p-[10px] sm:p-[5px] md:p-[6px] rounded-radius7 w-[100%]">
                     <div className="flex flex-row md:flex-wrap sm:flex-wrap items-start sm:mx-[0] my-[4px] sm:px-[0] sm:w-[100%] w-[35%]">
                       <Img
                         src="images/img_settings.svg"
